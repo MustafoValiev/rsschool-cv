@@ -38,7 +38,6 @@ to become to be good Full-stack developer.
 **Digital root KATA from CODEWARS:** 
  *Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.*
 
-<code>
 
     function digitalRoot(n) { 
         if (n.toString().length === 1) {
@@ -52,15 +51,11 @@ to become to be good Full-stack developer.
         }
     }
 
-</code>
-
 ---
 
 ### Courses:
 
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-- 
-
 
 ### Languages:
 
