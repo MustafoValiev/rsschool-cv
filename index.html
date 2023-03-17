@@ -6,30 +6,87 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<div id="main">
 <div class="about">
     <div class="profile">
         <div class="main-info">
             <img class="avatar_box" src="" alt="My Avatar">
-            <h1>Mustafo Valiev</h1>
+            <h2>Mustafo Valiev</h2>
             <p>Junior Frontend Developer</p>
         </div>
         <div class="contacts">
-
+            <p class="text-box">CONTACTS</p>
+            <div>
+                <img src="" alt="">
+                <p>+998906553072</p>
+                <img src="" alt="">
+                <p>@mustafo_valiev</p>
+                <img src="" alt="">
+                <p>valievm777@gmail.com</p>
+            </div>
         </div>
         <div class="skills">
-
+            <p class="text-box">SKILLS</p>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, Github</li>
+                <li>C++, Python</li>
+            </ul>
         </div>
         <div class="languages">
-
+            <p class="text-box">LANGUAGES</p>
+            <ul>
+                <li>English - Upper-intermediate</li>
+                <li>Uzbek (native)</li>
+                <li>Russian (second-native)</li>
+                <li>Korean - Basic</li>
+            </ul>
         </div>
-
     </div>
     <div class="description">
         <div class="about_myself">
             <h3>ABOUT MYSELF</h3>
-            <p></p>
+            <p>Right now I am a student at INHA University in Tashkent, which is considerate to be the best
+                University in my country that gives knowledge about IT. The more I got to know about IT sphere, the more
+                I became interested
+                in coding. So for my first steps I decided to learn all about Front-end and Back-end. And I am mainly
+                aiming
+                to become a good Full-stack developer.
+            </p>
+        </div>
+        <div class="education">
+            <p>INHA University in Tashkent</p>
+            <p>School of Computer Science and Information Engineering</p>
+            <p>Years:2022-2026</p>
+        </div>
+        <div class="courses">
+            <ul>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+            </ul>
+        </div>
+        <div class="code">
+            <p>Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in
+                this way until a single-digit number is produced. The input will be a non-negative integer.
+            </p>
+            <pre>
+            <code>
+                function digitalRoot(n) {
+                    if (n.toString().length === 1) {
+                        return n
+                } else {
+                    answer = 0;
+                    for (let i = 0; i < n.toString().length; i++) {
+                        answer += +(n.toString()[i])
+                    }
+                    return digitalRoot(answer)
+                    }
+                }
+            </code></pre>
         </div>
     </div>
 </div>
@@ -47,5 +104,6 @@
         <a href=""><img src="" alt=""></a>
     </div>
 </footer>
+</div>
 </body>
 </html>
