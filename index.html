@@ -5,75 +5,84 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
 <div id="main">
-<div class="about">
-    <div class="profile">
-        <div class="main-info">
-            <img class="avatar_box" src="" alt="My Avatar">
-            <h2>Mustafo Valiev</h2>
-            <p>Junior Frontend Developer</p>
-        </div>
-        <div class="contacts">
-            <p class="text-box">CONTACTS</p>
-            <div>
-                <img src="" alt="">
-                <p>+998906553072</p>
-                <img src="" alt="">
-                <p>@mustafo_valiev</p>
-                <img src="" alt="">
-                <p>valievm777@gmail.com</p>
+    <div class="about">
+        <div class="profile">
+            <div class="about_me">
+                <div class="avatar_box"></div>
+                <h2>Mustafo Valiev</h2>
+                <p>Junior Frontend Developer</p>
+            </div>
+            <div class="main-info">
+                <div class="info-box">
+                    <div class="text-box"><p>CONTACTS</p></div>
+                    <div class="flex-box">
+                        <img src="./images/phone_icon.png" alt="Phone: ">
+                        <p>+998906553072</p>
+                    </div>
+                    <div class="flex-box">
+                        <img src="./images/telegram_icon.png" alt="Telegram: ">
+                        <p>@mustafo_valiev</p>
+                    </div>
+                    <div class="flex-box">
+                        <img src="./images/email_icon.png" alt="Email: ">
+                        <p>valievm777@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="text-box"><p>SKILLS</p></div>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript Basics</li>
+                        <li>Git, Github</li>
+                        <li>C++, Python</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <div class="text-box"><p>LANGUAGES</p></div>
+                    <ul>
+                        <li>English - Upper-intermediate</li>
+                        <li>Uzbek (native)</li>
+                        <li>Russian (second-native)</li>
+                        <li>Korean - Basic</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="skills">
-            <p class="text-box">SKILLS</p>
-            <ul>
-                <li>HTML5, CSS3</li>
-                <li>JavaScript Basics</li>
-                <li>Git, Github</li>
-                <li>C++, Python</li>
-            </ul>
-        </div>
-        <div class="languages">
-            <p class="text-box">LANGUAGES</p>
-            <ul>
-                <li>English - Upper-intermediate</li>
-                <li>Uzbek (native)</li>
-                <li>Russian (second-native)</li>
-                <li>Korean - Basic</li>
-            </ul>
-        </div>
-    </div>
-    <div class="description">
-        <div class="about_myself">
-            <h3>ABOUT MYSELF</h3>
-            <p>Right now I am a student at INHA University in Tashkent, which is considerate to be the best
-                University in my country that gives knowledge about IT. The more I got to know about IT sphere, the more
-                I became interested
-                in coding. So for my first steps I decided to learn all about Front-end and Back-end. And I am mainly
-                aiming
-                to become a good Full-stack developer.
-            </p>
-        </div>
-        <div class="education">
-            <p>INHA University in Tashkent</p>
-            <p>School of Computer Science and Information Engineering</p>
-            <p>Years:2022-2026</p>
-        </div>
-        <div class="courses">
-            <ul>
-                <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
-            </ul>
-        </div>
-        <div class="code">
-            <p>Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in
-                this way until a single-digit number is produced. The input will be a non-negative integer.
-            </p>
-            <pre>
+        <div class="description">
+            <div class="about_myself">
+                <h3>ABOUT MYSELF</h3>
+                <p>Right now I am a student at INHA University in Tashkent, which is considerate to be the best
+                    University in my country that gives knowledge about IT. The more I got to know about IT sphere, the
+                    more
+                    I became interested
+                    in coding. So for my first steps I decided to learn all about Front-end and Back-end. And I am
+                    mainly
+                    aiming
+                    to become a good Full-stack developer.
+                </p>
+            </div>
+            <div class="education">
+                <p>INHA University in Tashkent</p>
+                <p>School of Computer Science and Information Engineering</p>
+                <p>Years:2022-2026</p>
+            </div>
+            <div class="courses">
+                <ul>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                </ul>
+            </div>
+            <div class="code">
+                <p>Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in
+                    this way until a single-digit number is produced. The input will be a non-negative integer.
+                </p>
+                <pre>
             <code>
                 function digitalRoot(n) {
                     if (n.toString().length === 1) {
@@ -87,23 +96,23 @@
                     }
                 }
             </code></pre>
+            </div>
         </div>
     </div>
-</div>
-<footer>
-    <div>
-        <a href="">
-            <img src="" alt="">
-            <p></p>
-        </a>
-    </div>
-    <div>
-        <a href="">© 2023</a>
-    </div>
-    <div>
-        <a href=""><img src="" alt=""></a>
-    </div>
-</footer>
+    <footer>
+        <div>
+            <a href="">
+                <img src="" alt="">
+                <p></p>
+            </a>
+        </div>
+        <div>
+            <p>© 2023</p>
+        </div>
+        <div>
+            <a href=""><img src="" alt=""></a>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
