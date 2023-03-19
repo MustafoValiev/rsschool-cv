@@ -18,8 +18,8 @@
 
 Right now I am a student at INHA University in Tashkent, which is considerate to be the best
 University in my country that gives knowledge about IT. The more I got to know about IT sphere, the more I became interested 
-in coding. So for my first steps I decided to learn all about Front-end and Back-end. And I am mainly aimming
-to become to be good Full-stack developer.
+in coding. So for my first steps I decided to learn all about Front-end and Back-end. And I am mainly aiming
+to become a good Full-stack developer.
 
 ---
 

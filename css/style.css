@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 1.3em;
+    color: #49576c;
+}
+
+
+#box-shadow{
+    box-shadow: 0 0 0.5rem 0.3rem rgb(0,0,0,0.2);
+    width: 60%;
+    margin: 0 auto
+}
+
+#main{
+    background-color: #f4ffff;
+    width: 100%;
+    margin: 1rem 0 0 0;
+    padding: 2.2rem;
+}
+
+body{
+    background-color: rgb(75, 154, 232, 0.7);
+    font-family: Calibri, serif;
+}
+
+.about{
+    display: flex;
+}
+
+.profile{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.description{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+.avatar_box{
+    margin: .5rem;
+    width: 8rem;
+    border: solid 1px rgb(94, 118, 141);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    background-image: url("../images/avatar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0.2rem;
+}
+
+.about_me:nth-child(1){
+    padding-bottom: 0.7rem;
+    border-top: solid 1px #7cbaff;
+    border-bottom: solid 1px #7cbaff;
+}
+
+.about_me h1{
+    font-weight: bold;
+}
+
+.about_me p{
+    padding-top: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.about_me h2{
+    padding: 0.1rem 0;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-box img{
+    margin:0.2rem 1.4rem 0 0;
+    width: 1.2rem;
+    aspect-ratio: 1;
+}
+
+.main-info{
+    margin-top: 1.5rem;
+}
+
+.info-box{
+    align-items: center;
+    box-shadow: 0 0 0.6rem 0.1rem rgba(198, 215, 215, 0.81);
+    background-color: #c2d9ee;
+    padding: 0.6rem 1rem;
+}
+
+.info-box:nth-child(3){
+    padding-bottom: 2rem;
+}
+
+.text-box{
+    margin: 1.2rem 0 1.2rem 0;
+    display: block;
+    text-align: center;
+    color: #c7dbf6;
+}
+
+.text-box p{
+    display: inline;
+    background-color: #49576c;
+    padding: 0.2rem 0.8rem;
+}
+
+.info-box ul{
+    list-style: initial;
+    margin-left: 1rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info-box ul span {
+    font-weight: bold;
+}
+
+.content{
+    padding: 0 0 0.8rem 0.6rem;
+    line-height: 1.3rem;
+}
+
+.title h2{
+    font-weight: bold;
+    color: rgb(38, 91, 161);
+    text-align: left;
+    padding-left: 0.6rem;
+    margin: 0.4rem 0 0.4rem 0;
+    padding-bottom: 0.6rem;
+    border-bottom: solid 2px black;
+}
+
+pre{
+    box-shadow: 0 0 0.5rem 0.05rem rgb(0,0,0,0.2);
+    border-radius: 0.2rem;
+    border: solid 2px grey;
+    background-color: white;
+    margin: 1.2rem 0 0 0;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2.2em;
+    align-items: center;
+    background-color: #49576c;
+    color: black;
+}
+
+footer img{
+    width: 4rem;
+    padding: 0.4rem 0;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #49576c;
+}
+
+
+@media screen and (max-width: 1920px){
+    :root{
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width: 820px){
+    :root{
+        font-size:2rem;
+    }
+
+    #box-shadow{
+        box-shadow: 0 0 0.5rem 0.3rem rgb(0,0,0,0.2);
+        width: 100%;
+        margin: 0 auto
+    }
+
+    #main{
+        background-color: #f4ffff;
+        width: 100%;
+        margin: 1rem 0 0 0;
+        padding: 0.8rem;
+    }
+
+    .about{
+        display: initial;
+    }
+
+    pre{
+        font-size: 0.8rem;
+    }
+
+    footer{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    footer img{
+        width: 3rem;
+        padding: 0.4rem 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    :root{
+        font-size:1rem;
+    }
+
+    #box-shadow{
+        box-shadow: 0 0 0.5rem 0.3rem rgb(0,0,0,0.2);
+        width: 100%;
+        margin: 0 auto
+    }
+
+    #main{
+        background-color: #f4ffff;
+        width: 100%;
+        margin: 1rem 0 0 0;
+        padding: 0.8rem;
+    }
+
+    .about{
+        display: initial;
+    }
+
+    pre{
+        font-size: 0.8rem;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    footer img{
+        width: 3rem;
+        padding: 0.4rem 0;
+    }
+}
+
